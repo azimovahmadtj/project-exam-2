@@ -4,6 +4,8 @@
 }
 
 .main {
+    max-width: 1240px;
+    margin: auto;
     width: 100%;
     height: 80px;
     /* background-color: yellow; */
@@ -67,10 +69,83 @@ margin-left: 15px;
     font-size: 25px;
 }
 .companies{
+    max-width: 1240px;
+    margin: auto;
     width: 100%;
     display: flex;
     gap: 15px;
     justify-content: space-around;
+}
+.immigration{
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+    height: 1050px;
+    /* background-color: green; */
+    margin-top: 40px;
+}
+.first{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 420px;
+    /* background-color: yellow; */
+}
+.first h1{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.first p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.service{
+    /* background-color: lightgray; */
+    margin-left: 45px;
+    margin-top: 45px;
+    width: 900px;
+    display: flex;
+}
+.fast h2{
+    margin-left: 10px;
+    font-family: 'Roboto',sans-serif;
+    /* text-align: center; */
+
+}
+.fast p{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.frct{
+    height: 250px;
+    margin-left: 50px;
+}
+.control{
+    /* background-color: aqua; */
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 900px;
+    display: flex;
+}
+.control img{
+    height: 300px;
+}
+.control h1{
+    margin-left: 50px;
+}
+.control p{
+    margin-left: 50px;
+}
+.full{
+    width: 100%;
+}
+.full h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.full p{
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
 }
 @media(max-width:500px) {
     .menu {
@@ -92,26 +167,58 @@ margin-left: 15px;
     }
 
     .burger {
-        font-size: 45px;
+        font-size: 55px;
         display: block;
     }
     .start{
-        margin-top: 280px;
+        margin-top: 360px;
         flex-direction: column-reverse;
     }
     .des{
         height: 110%;
         margin-top: 50px;
-        background-color: orange;
+        background-color: rgba(255, 187, 138, 1);
     }
     .ioi{
         flex-direction: column;
     }
     .companies{
+        background-color:rgba(255, 187, 138, 1);
         overflow: scroll;
     }
     .companies img{
         gap:8px;
         height: 120px;
     }
+    .kok{
+        margin-top: 50px;
+    }
+    .immigration{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .service{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .frct{
+        width: 100%;
+        margin-left: -50px !important;
+    }
+}.control{
+    flex-direction: column;
+    width: 100%;
+}
+.control img{
+    margin-left: -15px;
+    width: 100%;
+}
+.cnt{
+    width: 100%;
+}
+.fast{
+    width: 100%;
+}
+.fast p{
+    margin-left: -25px;
 }
