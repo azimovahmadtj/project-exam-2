@@ -147,12 +147,46 @@ margin-left: 15px;
     margin-left: 10px;
     font-family: 'Inter',sans-serif;
 }
+
+.relocated{
+    margin-top: 80px;
+    width:100%;
+    /* display: flex; */
+    background-color: aqua;
+}
+.relocated h1{
+    margin-left: 20%
+}
+.relocated p{
+    margin-left: 20%;
+}
+.emps{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+}
+.p1{
+    margin-left: 25px;
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+}
+.p1 p{
+    font-family: 'Roboto',sans-serif;
+    margin-left: 80px;
+}
 @media(max-width:500px) {
     .menu {
         gap: 5px;
         display: none;
     }
-
+    .emps{
+        background-color:rgba(255, 187, 138, 1) ;
+    }
+.relocated{
+    background-color: rgba(255, 187, 138, 1);
+}
     .main {
         padding: 50px 0px 0px;
         display: flex;
@@ -169,6 +203,7 @@ margin-left: 15px;
     .burger {
         font-size: 55px;
         display: block;
+    margin-left: 50px;
     }
     .start{
         margin-top: 360px;
@@ -198,21 +233,31 @@ margin-left: 15px;
         flex-direction: column-reverse;
     }
     .service{
+        margin-left: 20px;
+background-color:rgba(255, 187, 138, 1); 
         flex-direction: column-reverse;
-        width: 100%;
+        width: 95%;
     }
     .frct{
         width: 100%;
-        margin-left: -50px !important;
+        margin-left: 0px !important;
     }
-}.control{
+        .fast h2,p{
+    margin-left: 80px;
+    }
+    .fast p{
+        margin-left: 80px;
+    }
+    .control{
     flex-direction: column;
-    width: 100%;
+    width: 98%;
+    background-color: rgba(255, 187, 138, 1); 
 }
 .control img{
     margin-left: -15px;
     width: 100%;
 }
+
 .cnt{
     width: 100%;
 }
@@ -222,3 +267,38 @@ margin-left: 15px;
 .fast p{
     margin-left: -25px;
 }
+.right{
+    margin-left: 15px;
+
+}
+.relocated{
+    margin-top: 400px;
+    flex-direction:column;
+    
+}
+.emps{
+    overflow: scroll;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.p1{
+    width:100% !important; 
+   margin-left: 0px;
+}
+.p1 p{
+    margin-left: 50px;
+}
+.p2{
+    /* display: none; */
+    margin-left: 50px;
+}
+.p3{
+    margin-left: 45px;
+}
+    }
+
+
+
+    
+
