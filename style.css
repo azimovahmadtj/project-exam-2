@@ -262,6 +262,72 @@ padding: 8px;
     margin-left: 15px;
     margin-top: 25px;
 }
+.testimonals{
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+    height:400px;
+    background-color:rgba(255, 187, 138, 1) ; 
+}
+.card-person{
+    border-radius: 12px;
+    width: 250px;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.card-person img{
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.card-person h3{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.com{
+    margin-left: 15pz;
+    /* background-color: green; */
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ht1{
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 102px;
+    height: 60%;
+    background-color: lightgrey;
+
+}
+.yout{
+    max-width: 1240px;
+    margin: auto;
+    margin-left: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+.ht1 p{
+    margin-left: 35px;
+}
+.next{
+    margin-left: 150px;
+    margin-top: 150px;
+    height: 50px;
+    /* background-color: green; */
+    padding: 20px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+.next:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
 @media(max-width:500px) {
     .menu {
         gap: 5px;
@@ -280,6 +346,21 @@ padding: 8px;
     }
     .tags{
         width: 100%;
+    }
+    .next{
+        display: none;
+    }
+    .yout{
+        margin-top: 30px;
+    }
+    .testimonals{
+        height: 750px;
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .card-person{
+        margin-left: 120px;
     }
     .pound{
         flex-direction: column;
