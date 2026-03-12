@@ -270,7 +270,7 @@ padding: 8px;
     margin: auto;
     width: 100%;
     height:400px;
-    background-color:rgba(255, 187, 138, 1) ; 
+    background-color:rgba(255, 246, 239, 1); 
 }
 .card-person{
     border-radius: 12px;
@@ -328,18 +328,110 @@ padding: 8px;
     background-color: green;
     color: white;
 }
+.faq{
+    width: 100%;
+    margin-top: 40px;
+}
+.faq-desktop{
+    background:#f3f3f3;
+    padding:40px;
+}
+
+.faq-desktop h2{
+    margin-bottom:20px;
+}
+
+.faq-desktop details{
+    border-bottom:1px solid #ddd;
+    padding:15px 0;
+}
+
+.faq-desktop summary{
+    cursor:pointer;
+    font-size:16px;
+}
+
+.faq-desktop summary.active{
+    color:#3aaa35;
+}
+
+.faq-text{
+    margin-top:10px;
+    color:#555;
+}
+.faq h1{
+    margin-left: 15px;
+    font-family: 'Arial',sans-serif;
+}
+.que{
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 15px;
+   border:1px solid lightgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 98%;
+    display: flex;
+}
+.dinn{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    height: 220px;
+background-color: rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 5px 2px;
+
+}
+.d1{
+    width: 500px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.znk{
+    margin-left: 500px;
+   font-size: 25px;
+   color: green;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color:rgba(42, 48, 52, 1);
+}
+.log{
+    margin-top: 45px;
+    margin-left: 25px;
+}
+.menn{
+    margin-top: 20px;
+    color: white;
+}
 @media(max-width:500px) {
-    .menu {
-        gap: 5px;
-        display: none;
-    }
+   
     .pr1{
 
         padding: 10%;
         width: 90%;
     }
+    .dinn{
+        display: none;
+        background-color: green;
+        /* width: 100%; */
+    }
+    br{
+        display: none;
+    }
+    .d1{
+        background-color: red;
+        width: 100%;
+    }
     .emps{
         background-color:rgba(255, 187, 138, 1) ;
+    }
+    .znk{
+        height: 20px;
     }
     .urel img{
         width: 100%;
@@ -502,6 +594,7 @@ background-color:rgba(255, 187, 138, 1);
 .p3{
     margin-left: 45px;
 }
+
     }
 
 
