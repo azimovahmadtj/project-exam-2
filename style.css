@@ -231,6 +231,37 @@ margin-left: 15px;
     border:none;
     border-radius: 15px;
 }
+.urel{
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    /* background-color: cyan; */
+    margin-top: 200px;
+}
+.urel h1{
+    font-family: 'Roboto',sans-serif;
+}
+.urel p{
+    margin-left: 5px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tags{
+    
+    gap: 10px;
+    display: flex;
+}
+.tags p{
+    border-radius: 10px;
+padding: 8px;
+    background-color: lightgrey;
+}
+.urel img{
+    margin-left: 15px;
+    margin-top: 25px;
+}
 @media(max-width:500px) {
     .menu {
         gap: 5px;
@@ -244,12 +275,26 @@ margin-left: 15px;
     .emps{
         background-color:rgba(255, 187, 138, 1) ;
     }
+    .urel img{
+        width: 100%;
+    }
+    .tags{
+        width: 100%;
+    }
     .pound{
         flex-direction: column;
+    }
+    .urel{
+        width: 100%;
+        margin-top: 1000px;
+        background-color: rgba(255, 187, 138, 1) ; ;
     }
 .relocated{
     height: 100%;
     background-color: rgba(255, 187, 138, 1);
+}
+.case{
+    background-color:rgba(255, 187, 138, 1); ;
 }
 .p1 p{
     margin-top: -2px;
